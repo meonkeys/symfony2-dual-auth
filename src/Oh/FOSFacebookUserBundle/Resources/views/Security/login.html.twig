@@ -8,7 +8,7 @@
 <!-- inside a twig template -->
 {{ facebook_initialize({'xfbml': true, 'fbAsyncInit': 'onFbInit();'}) }}
 
-{{ facebook_login_button({'autologoutlink': true, 'label': 'Log in using Facebook'}) }}
+{{ facebook_login_button({'autologoutlink': false, 'label': 'Log in using Facebook'}) }}
 
 <script>
   function goLogIn(){
