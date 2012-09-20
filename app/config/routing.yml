@@ -2,3 +2,7 @@
 #_internal:
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
+
+OhFOSFacebookUserBundleRoutes:
+    resource: "@OhFOSFacebookUserBundle/Resources/config/routing.yml"
+    prefix:   /

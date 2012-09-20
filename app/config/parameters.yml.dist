@@ -1,0 +1,13 @@
+# copy to parameters.yml and edit
+parameters:
+    mailer_transport:  smtp
+    mailer_host:       localhost
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en
+    secret:            ThisTokenIsNotSoSecretChangeIt
+    facebook_app_id:   ChangeMe
+    facebook_app_secret: ChangeMe
+    facebook_app_url:  ChangeMe
+    facebook_server_url: ChangeMe

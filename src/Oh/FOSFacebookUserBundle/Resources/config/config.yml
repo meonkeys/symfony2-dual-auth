@@ -1,0 +1,17 @@
+fos_facebook:
+    file:   %kernel.root_dir%/../vendor/facebook/php-sdk/src/base_facebook.php
+    app_id: %facebook_app_id%
+    secret: %facebook_app_secret%
+    cookie: true
+    permissions: [email]
+
+fos_user:
+    db_driver:          mongodb
+    firewall_name:      public
+    user_class:         Oh\FOSFacebookUserBundle\Document\User
+    from_email:
+        address:        me@example.com
+        sender_name:    Example
+    registration:
+        confirmation:
+            enabled:    true
