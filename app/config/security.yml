@@ -31,8 +31,8 @@ security:
             # since anonymous is allowed users will not be forced to login
             pattern:   ^/.*
             fos_facebook:
-                app_url: %facebook_app_url%
-                server_url: %facebook_server_url%
+                app_url: ~
+                server_url: ~
                 login_path: fos_user_security_login
                 check_path: fos_user_security_check
                 default_target_path: /

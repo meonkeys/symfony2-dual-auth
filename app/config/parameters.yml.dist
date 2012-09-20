@@ -9,5 +9,3 @@ parameters:
     secret:            ThisTokenIsNotSoSecretChangeIt
     facebook_app_id:   ChangeMe
     facebook_app_secret: ChangeMe
-    facebook_app_url:  ChangeMe
-    facebook_server_url: ChangeMe
