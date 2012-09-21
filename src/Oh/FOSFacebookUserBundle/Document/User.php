@@ -103,11 +103,10 @@ class User extends BaseUser {
   }
 
   /**
-   * @param Array
    * FIXME: This doesn't play nice with existing data if the object is later
    * persisted (as is done in our FacebookProvider!).
    */
-  public function setFBData($fbdata) {
+  public function setFBData(array $fbdata) {
     if (isset($fbdata['id'])) {
       $this->setFacebookId($fbdata['id']);
       $this->addRole('ROLE_FACEBOOK');
