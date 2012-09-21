@@ -33,8 +33,8 @@ security:
             fos_facebook:
                 app_url: ~
                 server_url: ~
-                login_path: fos_user_security_login
-                check_path: fos_user_security_check
+                login_path: OhFOSFacebookUserBundle_homepage
+                check_path: /loginFb
                 default_target_path: /
                 provider: my_fos_facebook_provider
             form_login:
