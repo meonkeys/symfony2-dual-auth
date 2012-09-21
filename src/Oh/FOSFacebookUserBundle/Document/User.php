@@ -87,6 +87,10 @@ class User extends BaseUser {
    */
   public function setFacebookId($facebookId) {
     $this->facebookId = $facebookId;
+    // FIXME: Seems fine if this is a new User document, but this will
+    // effectively break username/password login if we're updating a User
+    // already in the database (see our FacebookProvider, which doesn't appear
+    // to distinguish if we're creating or updating!)
     $this->setUsername($facebookId);
     $this->salt = '';
   }
@@ -100,6 +104,8 @@ class User extends BaseUser {
 
   /**
    * @param Array
+   * FIXME: This doesn't play nice with existing data if the object is later
+   * persisted (as is done in our FacebookProvider!).
    */
   public function setFBData($fbdata) {
     if (isset($fbdata['id'])) {
