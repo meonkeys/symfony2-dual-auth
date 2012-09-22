@@ -42,7 +42,7 @@ doctrine_mongodb:
         default:
             server: mongodb://localhost:27017
             options: {}
-    default_database: symfony21fos
+    default_database: symfony2fos
     document_managers:
         default:
             auto_mapping: true
