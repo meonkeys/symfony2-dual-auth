@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/mongodb",
-                "reference": "1d5b2eec0a970bcdae36f4a9b275ccff1f24f6f7"
+                "reference": "34e75e3650839d883f76fd482b137219472a1ba0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/mongodb/zipball/1d5b2eec0a970bcdae36f4a9b275ccff1f24f6f7",
-                "reference": "1d5b2eec0a970bcdae36f4a9b275ccff1f24f6f7",
+                "url": "https://github.com/doctrine/mongodb/zipball/34e75e3650839d883f76fd482b137219472a1ba0",
+                "reference": "34e75e3650839d883f76fd482b137219472a1ba0",
                 "shasum": ""
             },
             "require": {
@@ -220,7 +220,7 @@
                 "symfony/console": ">=2.0,<2.2-dev",
                 "doctrine/common": ">=2.1.0,<2.5-dev"
             },
-            "time": "1347540618",
+            "time": "1348291623",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -266,12 +266,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/mongodb-odm.git",
-                "reference": "76a75f24e125fd01640c151710e2809059dc814a"
+                "reference": "bee032c2439d15b24483128d7994604db0a871c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/mongodb-odm/zipball/76a75f24e125fd01640c151710e2809059dc814a",
-                "reference": "76a75f24e125fd01640c151710e2809059dc814a",
+                "url": "https://github.com/doctrine/mongodb-odm/zipball/bee032c2439d15b24483128d7994604db0a871c6",
+                "reference": "bee032c2439d15b24483128d7994604db0a871c6",
                 "shasum": ""
             },
             "require": {
@@ -281,7 +281,7 @@
                 "symfony/console": ">=2.0-dev,<2.2-dev",
                 "doctrine/mongodb": ">=1.0.0-beta1,<1.1-dev"
             },
-            "time": "1347540530",
+            "time": "1348324802",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -327,12 +327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineMongoDBBundle.git",
-                "reference": "1b07bcefb6fd989890c023353b900038d574cc66"
+                "reference": "cfa2a7d8af2e9d7da5f01ee802189ca7f3beb3d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/DoctrineMongoDBBundle/zipball/1b07bcefb6fd989890c023353b900038d574cc66",
-                "reference": "1b07bcefb6fd989890c023353b900038d574cc66",
+                "url": "https://github.com/doctrine/DoctrineMongoDBBundle/zipball/cfa2a7d8af2e9d7da5f01ee802189ca7f3beb3d0",
+                "reference": "cfa2a7d8af2e9d7da5f01ee802189ca7f3beb3d0",
                 "shasum": ""
             },
             "require": {
@@ -349,7 +349,7 @@
             "suggest": {
                 "doctrine/data-fixtures": "Load data fixtures"
             },
-            "time": "1347913569",
+            "time": "1348329574",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -489,12 +489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle",
-                "reference": "34f1919ceab96339a8dc6ad7c2b00274a6f499f1"
+                "reference": "1b2d06b0f9a7ef5dbd94433ad15c3ab7cc3eb492"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/FriendsOfSymfony/FOSUserBundle/zipball/34f1919ceab96339a8dc6ad7c2b00274a6f499f1",
-                "reference": "34f1919ceab96339a8dc6ad7c2b00274a6f499f1",
+                "url": "https://github.com/FriendsOfSymfony/FOSUserBundle/zipball/1b2d06b0f9a7ef5dbd94433ad15c3ab7cc3eb492",
+                "reference": "1b2d06b0f9a7ef5dbd94433ad15c3ab7cc3eb492",
                 "shasum": ""
             },
             "require": {
@@ -515,7 +515,7 @@
                 "doctrine/doctrine-bundle": "*",
                 "doctrine/mongodb-odm-bundle": "*"
             },
-            "time": "1347897534",
+            "time": "1348265094",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -571,7 +571,7 @@
                 "symfony/framework-bundle": "2.*",
                 "jms/cg": "1.0.0"
             },
-            "time": "2012-01-05 12:50:26",
+            "time": "2012-01-06 04:50:26",
             "type": "symfony-bundle",
             "installation-source": "dist",
             "autoload": {
@@ -613,7 +613,7 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2012-01-05 12:40:52",
+            "time": "2012-01-06 04:40:52",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -644,12 +644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSDiExtraBundle",
-                "reference": "b94feeee8f57060598fdc7a3ef2527182b3946b5"
+                "reference": "1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/schmittjoh/JMSDiExtraBundle/zipball/b94feeee8f57060598fdc7a3ef2527182b3946b5",
-                "reference": "b94feeee8f57060598fdc7a3ef2527182b3946b5",
+                "url": "https://github.com/schmittjoh/JMSDiExtraBundle/zipball/1.1.1",
+                "reference": "1.1.1",
                 "shasum": ""
             },
             "require": {
@@ -672,6 +672,7 @@
                 "doctrine/doctrine-bundle": "*",
                 "doctrine/orm": "*"
             },
+            "time": "1348217792",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -686,7 +687,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -695,8 +696,7 @@
             "keywords": [
                 "dependency injection",
                 "annotations"
-            ],
-            "time": "1347872946"
+            ]
         },
         {
             "name": "jms/metadata",
@@ -715,7 +715,7 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2012-01-05 13:32:49",
+            "time": "2012-01-06 05:32:49",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -1298,12 +1298,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "9fd2baa502ea6700461cce89f2295a695c20e430"
+                "reference": "7273311e1fb663ae7f5501f57a52ba9bd4db2ec3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/zipball/9fd2baa502ea6700461cce89f2295a695c20e430",
-                "reference": "9fd2baa502ea6700461cce89f2295a695c20e430",
+                "url": "https://github.com/symfony/symfony/zipball/7273311e1fb663ae7f5501f57a52ba9bd4db2ec3",
+                "reference": "7273311e1fb663ae7f5501f57a52ba9bd4db2ec3",
                 "shasum": ""
             },
             "require": {
@@ -1352,7 +1352,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "dev-master"
             },
-            "time": "1348130370",
+            "time": "1348414301",
             "type": "library",
             "extra": {
                 "branch-alias": {
