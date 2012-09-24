@@ -4,6 +4,7 @@ php: [5.3, 5.4]
 
 before_script:
   - app/Resources/mongo-php-driver-installer
+  - cp app/config/parameters.yml.dist app/config/parameters.yml
   - composer install
 
 script: phpunit -c app
