@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/columbusrb/conclave.png)](http://travis-ci.org/columbusrb/conclave)
+[![Build Status](https://secure.travis-ci.org/meonkeys/symfony2-dual-auth.png)](http://travis-ci.org/meonkeys/symfony2-dual-auth)
 
 Example integration of FOSFacebookBundle and FOSUserBundle for Symfony 2.1
 
