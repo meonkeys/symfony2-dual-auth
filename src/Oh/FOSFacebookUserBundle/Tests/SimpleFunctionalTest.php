@@ -2,7 +2,7 @@
 
 namespace Oh\FOSFacebookUserBundle\Tests;
 
-use Symfony\Bundle\FrameworkBundle\Tests\Functional\WebTestCase;
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class SimpleFunctionTest extends WebTestCase {
 
